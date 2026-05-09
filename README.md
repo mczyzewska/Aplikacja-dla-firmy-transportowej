@@ -21,7 +21,7 @@ System obsługuje trzy poziomy dostępu: **administratora**, **pracownika** i **
 - Historia statusów paczki z datą każdej zmiany
 
 ### 🚛 Przesyłki i transport
-- Tworzenie przesyłek z datą nadania i przewidywaną datą dostarczenia
+- Tworzenie przesyłek z datą nadania
 - Obsługa różnych metod transportu
 - Powiązanie przesyłki z punktem odbioru
 
@@ -42,15 +42,6 @@ System obsługuje trzy poziomy dostępu: **administratora**, **pracownika** i **
 ---
 
 ## 🗄️ Model danych
-
-```
-User ──── Client ──┬── Package ──┬── Shipment ── PickupPoint
-                   │             ├── PackageStatus
-                   │             ├── InvoiceItem ── Invoice
-                   │             ├── Courier
-                   │             └── Warehouse
-                   └── Invoice ── InvoiceItem
-```
 
 | Model | Opis |
 |-------|------|
@@ -93,7 +84,7 @@ User ──── Client ──┬── Package ──┬── Shipment ──
 
 ```bash
 # 1. Sklonuj repozytorium
-git clone https://github.com/[twoj-login]/transport-app.git
+git clone https://github.com/mczyzewska/transport-app.git
 cd transport-app
 
 # 2. Zainstaluj zależności PHP i JS, skonfiguruj .env i uruchom migracje
@@ -115,8 +106,6 @@ composer run test
 
 ---
 
-## 👤 Autor
+*Projekt stanowi część portfolio akademickiego prezentującego umiejętności z zakresu tworzenia aplikacji webowych.*
 
-**[Imię i Nazwisko]**  
-[Opcjonalnie: link do profilu GitHub]  
-[Rok]
+
