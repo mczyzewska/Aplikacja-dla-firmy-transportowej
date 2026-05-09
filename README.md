@@ -104,5 +104,8 @@ Aplikacja będzie dostępna pod adresem `http://localhost:8000`.
 composer run test
 ```
 
+---
+
+*Projekt stanowi część portfolio akademickiego prezentującego umiejętności z zakresu tworzenia aplikacji webowych.*
 
 
